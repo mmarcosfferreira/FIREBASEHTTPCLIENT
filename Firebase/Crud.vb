@@ -113,17 +113,25 @@ Public Class Crud
 
    Public Async Function loaded() As Task(Of Boolean)  'carregado
 	 Dim B As Boolean = False
-	 Using cliente As New HttpClient
+
+	 Using cliente As New HttpClient()
+
 	    With cliente
 		  .DefaultRequestHeaders.Accept.Clear()
 		  .DefaultRequestHeaders.Accept.Add(New Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"))
 
-		  Dim Response As HttpResponseMessage = Await cliente.GetAsync(Uri + "/.json")
+		  Dim Response As HttpResponseMessage = Await cliente.GetAsync(Uri + "/Credenciais.json?print=pretty&&auth=KzJRSV0e6C0qG5tIQtvEtdrhWxV8gMFVIDSJGHm0")
 
 		  If (Response.IsSuccessStatusCode) Then
 			Dim P As Uri = Response.Headers.Location
-			Dim m As String = Response.Content.ReadAsStringAsync.Result.ToString()
-			DgvDados.DataSource = JsonConvert.DeserializeObject(Of user())(m).ToList()
+			Dim Ler = Response.Content.ReadAsStringAsync()
+			MsgBox(Ler.Result)
+
+			'For Each item As Dictionary(Of user, ler)
+
+			'Next
+
+			DgvDados.DataSource = JsonConvert.DeserializeObject(Of List(Of user))(Ler.Result)
 			B = True
 		  End If
 

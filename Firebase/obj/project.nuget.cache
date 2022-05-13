@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4ejSiOsfpwy81h21SvIN4rFIz7LfzI1Mk8/rfkp9+0a+jns8b4JNtV0Q5z7xqMH0wbMAjZEh2X+e9wWbZhhlAw==",
+  "dgSpecHash": "v7t0uVSRJMhLsC3ILOhrvB6dX2g6O1cBDWZ3V9JrWmSJoTr3BHjpj7om/DFrrHV3nZvuqUHNxDKCR1MXJkFZtA==",
   "success": true,
-  "projectFilePath": "D:\\Desenvolvimento\\VB\\Desktop\\FIREBASE\\Firebase\\Firebase.vbproj",
+  "projectFilePath": "D:\\Desenvolvimento\\VB\\Desktop\\Firebase\\Firebase\\Firebase.vbproj",
   "expectedPackageFiles": [
     "C:\\Users\\mf\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\mf\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

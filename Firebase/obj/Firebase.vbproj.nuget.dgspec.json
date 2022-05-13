@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desenvolvimento\\VB\\Desktop\\FIREBASE\\Firebase\\Firebase.vbproj": {}
+    "D:\\Desenvolvimento\\VB\\Desktop\\Firebase\\Firebase\\Firebase.vbproj": {}
   },
   "projects": {
-    "D:\\Desenvolvimento\\VB\\Desktop\\FIREBASE\\Firebase\\Firebase.vbproj": {
+    "D:\\Desenvolvimento\\VB\\Desktop\\Firebase\\Firebase\\Firebase.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desenvolvimento\\VB\\Desktop\\FIREBASE\\Firebase\\Firebase.vbproj",
+        "projectUniqueName": "D:\\Desenvolvimento\\VB\\Desktop\\Firebase\\Firebase\\Firebase.vbproj",
         "projectName": "Firebase",
-        "projectPath": "D:\\Desenvolvimento\\VB\\Desktop\\FIREBASE\\Firebase\\Firebase.vbproj",
+        "projectPath": "D:\\Desenvolvimento\\VB\\Desktop\\Firebase\\Firebase\\Firebase.vbproj",
         "packagesPath": "C:\\Users\\mf\\.nuget\\packages\\",
-        "outputPath": "D:\\Desenvolvimento\\VB\\Desktop\\FIREBASE\\Firebase\\obj\\",
+        "outputPath": "D:\\Desenvolvimento\\VB\\Desktop\\Firebase\\Firebase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mf\\AppData\\Roaming\\NuGet\\NuGet.Config",
